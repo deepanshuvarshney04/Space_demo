@@ -17,6 +17,7 @@ regions:
         feature_middle: Feature Middle
         cta_banner: CTA Banner
         breadcrumb: Breadcrumb
+        highlighted: Highlighted
         content: Content
         footer_top: Footer Top
         footer_first: Footer First

@@ -25,7 +25,7 @@
 
         /* Main Menu CSS Start Here */
         .main-nav {
-            margin-left: 45px;
+            margin-left: 29px;
             @media screen and (max-width: (map-get($breakpoints, lg) - 1)) {
                 margin-left: 15px;
             }
@@ -123,7 +123,8 @@
 
                 .js-form-type-search input[type=search] {
                     padding: 7px 16px;
-                    width: 60%;
+                    position: absolute;
+                    right: 0;
                     background-color: #f5f5f5;
                     border: 0px;
                     border-radius: 6px;
@@ -137,8 +138,8 @@
                     padding: 8px 9px;
                     font-size: 13px;
                     position: absolute;
-                    top: 12%;
-                    left: 58%;
+                    top: 4px;
+                    right: 8px;
                 }
             }
 
@@ -152,7 +153,7 @@
                 }
 
                 a {
-                    padding: 12px 20px;
+                    padding: 10px 12px;
                     background: $sitecolor;
                     color: $colorwhite;
                     border-radius: 10px;
@@ -167,7 +168,8 @@
 
         span {
             position: absolute;
-            right: 27%;
+            top: 11px;
+            right: 131px;
             font-family: 'FontAwesome';
 
             @media screen and (max-width: (map-get($breakpoints, sm) - 1)) {

@@ -32,3 +32,13 @@ function space_demo_form_alter(&$form, &$form_state, $form_id)
     $form['actions']['submit']['#attributes']['class'][] = 'fas fa-search';
   }
 }
+/**
+ * Implement hook_form_menu
+ */
+function space_demo_preprocess_menu__account(&$variables) {
+  if($variables['items']['user.logout']['title'] == 'Log in'){
+    $variables['items']['user.logout']['title'] = t('Log in/Sign in');
+  }
+  else
+    $variables['items']['user.logout']['title'] = 'Log Out';
+}
